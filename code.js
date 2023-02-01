@@ -12,10 +12,6 @@ function math(){
     let input6=prompt(Math.random+' '+' x10');
     let input7=prompt(Math.random+' '+' x10');
     let input8=input3+' '+input4+' '+input5+' '+input6+' '+input7;
+    alert(input8)
     
 };
-function screen(){
-    
-    alert(input8)
-}
-
