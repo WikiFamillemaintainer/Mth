@@ -1,18 +1,55 @@
-function cool(){
-    let input1=prompt("Quel est ton nom")
-    let input2=input1+" " +"est ton nom";
-    alert(input2)
-    
-    
-}
+
 function math(){
-    Math.random()
-    let input3=prompt(Math.random+' '+' x10');
-    let input4=prompt(Math.random+' '+' x10');
-    let input5=prompt(Math.random+' '+' x10');
-    let input6=prompt(Math.random+' '+' x10');
-    let input7=prompt(Math.random+' '+' x10');
-    let input8=input3+' '+input4+' '+input5+' '+input6+' '+input7;
-    alert(input8)
-    
+    let a = prompt("Q1: 2 + 2 = ?");
+
+    if (a == 4) {
+        alert("Bonne réponse!!");
+    } else {
+        alert("La réponse est 4 !");
+    }
+
+    let b = prompt ("Q2 : 3 + 3 = ?");
+    if (b==6) {
+        alert("Bonne réponse!!");
+    } else {
+        alert("La réponse est 6!!");
+    }
+
+    let c = prompt ("Q2 : 4 + 3 = ?");
+    if (b==7) {
+        alert("Bonne réponse!!");
+    } else {
+        alert("La réponse est 7!!");
+    }
+
+    let d = prompt ("Q2 : 0 + 3 = ?");
+    if (b==3) {
+        alert("Bonne réponse!!");
+    } else {
+        alert("La réponse est 3!!");
+    }
+
+    let results =4;
+
+  if(a!=4){
+results=results-1 
+
+
+  }
+  if(b!=6){
+    results=results-1
+
+  };
+  if(c!=7)
+{
+results=results-1
+
+}
+if (d!=3){
+results=results-1
+
+}
+alert(" ta note est de " + results+ "/4")
 };
+
+
