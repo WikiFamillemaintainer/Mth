@@ -6,6 +6,7 @@ function cool(){
     
 }
 function math(){
+    Math.random()
     let input3=prompt(Math.random+' '+' x10');
     let input4=prompt(Math.random+' '+' x10');
     let input5=prompt(Math.random+' '+' x10');
