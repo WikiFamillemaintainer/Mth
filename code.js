@@ -8,10 +8,10 @@ function math(){
     let value1=Math.random
     let a = prompt(value1+'+' +'*10');
 
-    if (a == 4) {
+    if (value1*10==a) {
         alert("Bonne réponse!!");
     } else {
-        alert("La réponse est 4 !");
+        alert("La réponse est  "+);
     }
 
     let b = prompt ("Q2 : 3 + 3 = ?");
