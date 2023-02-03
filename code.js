@@ -1,6 +1,12 @@
+function name (){
+    let name1 =prompt("Quel est ton nom")
+    alert(name1+' '+'est ton nom')
 
+}
+Math.random()
 function math(){
-    let a = prompt("Q1: 2 + 2 = ?");
+    let value1=Math.random
+    let a = prompt(value1+'+' +'*10');
 
     if (a == 4) {
         alert("Bonne réponse!!");
