@@ -1,11 +1,5 @@
-function name (){
-    let name1 =prompt("Quel est ton nom")
-    alert(name1+' '+'est ton nom')
 
-}
-Math.random()
 function math(){
-
     Math.random()
     const v1=Math.random
     let a = p=prompt(v1+'*1°');
@@ -13,7 +7,7 @@ function math(){
     if (a=v1*10) {
         alert("Bonne réponse!!");
     } else {
-        alert("La réponse est "+v1); 
+        alert("La réponse est "+v1);
     }
 
     let b = prompt ("Q2 : 3 + 3 = ?");
@@ -39,7 +33,7 @@ function math(){
 
     let results =4;
 
-  if(a!=4){
+  if(a!=v1*10){
 results=results-1 
 
 
