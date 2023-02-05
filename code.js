@@ -1,11 +1,13 @@
 
 function math(){
-    let a = prompt("Q1: 2 + 2 = ?");
+    Math.random()
+    const v1=Math.random
+    let a = p=prompt(v1+'*1°');
 
-    if (a == 4) {
+    if (a=v1*10) {
         alert("Bonne réponse!!");
     } else {
-        alert("La réponse est 4 !");
+        alert("La réponse est "+v1);
     }
 
     let b = prompt ("Q2 : 3 + 3 = ?");
