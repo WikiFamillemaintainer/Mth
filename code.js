@@ -3,17 +3,18 @@ function name (){
     alert(name1+' '+'est ton nom')
 
 }
+name()
 Math.random()
 function math(){
 
-    Math.random()
+    Math()
     const v1=Math.random
-    let a = p=prompt(v1+'*1°');
+    let a = p=prompt("4+4");
 
-    if (a=v1*10) {
+    if (a=4) {
         alert("Bonne réponse!!");
     } else {
-        alert("La réponse est "+v1); 
+        alert("La réponse est "+4); 
     }
 
     let b = prompt ("Q2 : 3 + 3 = ?");
